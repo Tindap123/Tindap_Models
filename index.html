@@ -10,3 +10,70 @@
 <p>to jest innowacja polskiego modelingu w HTML.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang=„pl”>
+<head>
+    <meta charset=„UTF-8”>
+    <meta name=„viewport” content=„width=device-width, initial-scale=1.0”>
+    <title>Tindab Models</title>
+    <link rel=„stylesheet” href=„style.css”>
+</head>
+<body>
+
+    <header>
+        <div class=„top-bar”>
+            <button class=„btn” onclick=„alert(‚Przejście do sekcji dla modelek’)”>Modelka</button>
+            <button class=„btn” onclick=„alert(‚Przejście do sekcji dla firm’)”>Firma</button>
+        </div>
+        <div class=„welcome-section”>
+            <h1>Witaj na Tindab Models</h1>
+            <p>Platforma łącząca modelki z firmami. Znajdź najlepsze współprace w jednym miejscu.</p>
+        </div>
+    </header>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.top-bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
