@@ -1,3 +1,64 @@
+body {
+    font-family: ‚Arial’, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 4rem; 
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .highlight {
+    display: block; 
+    font-style: italic;
+}
+
+.subtext {
+    font-size: 0.9rem; 
+    color: gray;
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: gray;
+}
 
 
