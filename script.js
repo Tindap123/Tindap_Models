@@ -47,5 +47,15 @@ db.collection(„users”).doc(userCredential.user.uid).set({
             console.error(„Błąd rejestracji:”, error);
         });
 };
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if
+          request.time < timestamp.date(2025, 2, 23);
+    }
+  }
+}
 
 
