@@ -47,3 +47,5 @@ db.collection(„users”).doc(userCredential.user.uid).set({
             console.error(„Błąd rejestracji:”, error);
         });
 };
+
+
